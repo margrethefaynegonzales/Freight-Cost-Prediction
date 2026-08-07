@@ -1,0 +1,9 @@
+distance
+weight
+market_index
+quote_signal
+equipment
+month
+week
+day_of_week
+quarter
