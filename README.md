@@ -36,6 +36,7 @@ freight-rate-prediction/
 │
 ├── requirements.txt
 ├── README.md
+├── feature_columns.txt
 ├── .gitignore
 │
 ├── images/
