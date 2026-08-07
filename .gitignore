@@ -1,7 +1,7 @@
 # Client assessment files
 train_test.csv
 validation.csv
-december_chart_inputs_filled.xls
+
 
 # Model artifacts
 freight_rate_model.pkl
