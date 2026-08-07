@@ -1,8 +1,6 @@
 # Client assessment files
 train_test.csv
 validation.csv
-validation_predictions.csv
-validation_predictions.xls
 december_chart_inputs_filled.xls
 
 # Model artifacts
