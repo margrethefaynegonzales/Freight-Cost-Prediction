@@ -33,6 +33,7 @@ freight-rate-prediction/
 ├── Final ML Freight Cost Prediction.ipynb
 ├── Score_py Validation.ipynb
 ├── December Chart.ipynb
+├── validation_predictions.csv
 │
 ├── requirements.txt
 ├── README.md
