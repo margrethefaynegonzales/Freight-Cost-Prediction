@@ -45,6 +45,9 @@ freight-rate-prediction/
 │   ├── feature_importance.png
 │   ├── model_comparison.png
 │   └── prediction_distribution.png
+└── exploratory/
+    ├── 01_EDA.ipynb
+    └── 02_Imputer_vs_Drop.ipynb
 ```
 
 ---
