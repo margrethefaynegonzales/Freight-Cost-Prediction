@@ -31,12 +31,15 @@ Assessment Data
 freight-rate-prediction/
 │
 ├── Final ML Freight Cost Prediction.ipynb
-├── validation_predictions.csv
 │
 ├── requirements.txt
 ├── README.md
 ├── feature_columns.txt
 ├── .gitignore
+|
+├── .csv
+|   ├── validation_predictions.csv
+|   ├── december_chart_inputs_filled.csv
 │
 ├── images/
 │   ├── eda_distributions.png
