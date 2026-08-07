@@ -1,0 +1,26 @@
+# Client assessment files
+train_test.csv
+validation.csv
+validation_predictions.csv
+validation_predictions.xls
+december_chart_inputs_filled.xls
+
+# Model artifacts
+freight_rate_model.pkl
+imputer.pkl
+equipment_encoder.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
