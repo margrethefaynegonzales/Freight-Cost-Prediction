@@ -40,34 +40,30 @@ prediction output is `validation_predictions.csv`.
 ``` text
 freight-rate-prediction/
 │
-├── freight_rate_ml_engineer.py
+├── Final ML Freight Cost Prediction.ipynb
 ├── requirements.txt
 ├── README.md
-├── .gitignore
 │
 ├── feature_columns.txt
-├── freight_rate_model.pkl
-├── imputer.pkl
-├── equipment_encoder.pkl
-│
+├──
+├── csv/
 ├── validation_predictions.csv
+├── december_chart_inputs_filled (1)
 │
 ├── Freight_Rate_Report_Updated.docx
 │
-├── eda_distributions.png
+├── exploratory/
+├── EDA Freight Cost Prediction.ipynb
+├── imputer vs Drop Freight Cost.ipynb
+│
+├── images/
 ├── correlation_matrix.png
+├── eda_distributions.png
+├── equip_time.png
 ├── feature_importance.png
+├── model_comparison.png
 ├── prediction_distribution.png
-├── candidate_december.png
-│
-├── complete_eda.py / Complete EDA notebook
-├── imputer_vs_drop_freight_cost.py / notebook
-│
-└── data/                         # local/client-provided data — NOT committed
-    ├── train-test.csv
-    ├── validation.csv
-    ├── validation-predictions-template.csv
-    └── december_chart_inputs.csv
+
 ```
 
 ### Main files
