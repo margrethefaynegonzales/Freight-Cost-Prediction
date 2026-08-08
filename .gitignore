@@ -1,24 +1,98 @@
-# Client assessment files
-train_test.csv
-validation.csv
+# ============================================================
+# Freight Rate Prediction - GitHub .gitignore
+# ============================================================
+# This .gitignore is tailored to the current project files.
+#
+# IMPORTANT:
+# The client requires validation_predictions.csv as a submission
+# file, so it is explicitly allowed below.
+# ============================================================
 
 
-# Model artifacts
-freight_rate_model.pkl
-imputer.pkl
-equipment_encoder.pkl
+# ------------------------------------------------------------
+# 1. Client / Dataset CSV files
+# ------------------------------------------------------------
+# Ignore all CSV files by default to prevent client data
+# from being uploaded to GitHub.
+*.csv
 
-# Python cache
-__pycache__/
-*.py[cod]
+# REQUIRED CLIENT SUBMISSION - allow this one CSV
+!validation_predictions.csv
 
-# Jupyter
+
+# ------------------------------------------------------------
+# 2. Pickle / Serialized Model Files
+# ------------------------------------------------------------
+# Keep trained model artifacts and preprocessing objects private.
+*.pkl
+
+
+# ------------------------------------------------------------
+# 3. Excel Files
+# ------------------------------------------------------------
+# Client/source data and temporary spreadsheet outputs
+*.xls
+*.xlsx
+
+
+# ------------------------------------------------------------
+# 4. Jupyter Notebook Temporary Files
+# ------------------------------------------------------------
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
-# Virtual environments
-venv/
+# Client-specific validation notebook - keep out of repository
+Score_py Validation.ipynb
+
+
+# ------------------------------------------------------------
+# 5. Python Cache / Compiled Files
+# ------------------------------------------------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+
+# ------------------------------------------------------------
+# 6. Virtual Environments
+# ------------------------------------------------------------
 .venv/
+venv/
+env/
+ENV/
 
-# IDE
+
+# ------------------------------------------------------------
+# 7. IDE / Editor Files
+# ------------------------------------------------------------
 .vscode/
 .idea/
+*.swp
+*.swo
+
+
+# ------------------------------------------------------------
+# 8. Operating System Files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+
+# ------------------------------------------------------------
+# 9. Temporary / Log Files
+# ------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+
+
+# ------------------------------------------------------------
+# 10. Local / Temporary Analysis Outputs
+# ------------------------------------------------------------
+# Do not upload duplicate/temporary copies of analysis files.
+# The final selected PNGs and documentation can remain tracked.
+
+# If these files are only local working copies, uncomment:
+# *~
+# *.bak
