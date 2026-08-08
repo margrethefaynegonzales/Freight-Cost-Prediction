@@ -71,37 +71,26 @@ freight-rate-prediction/
   ------------------------------------------------------------------------
   File                                 Purpose
   ------------------------------------ -----------------------------------
-  `freight_rate_ml_engineer.py`        Main end-to-end ML solution
+  `Final ML Freight Cost Prediction.ipynb        Main end-to-end ML solution
 
-  `requirements.txt`                   Python package dependencies
 
-  `feature_columns.txt`                Final list of model features
+  `requirements.txt`                             Python package dependencies
+  `feature_columns.txt`                          Final list of model features
 
-  `freight_rate_model.pkl`             Saved final Random Forest model
+  `validation_predictions.csv`                   Required production predictions
 
-  `imputer.pkl`                        Fitted median imputer
+   `december_chat_inputs_filled.csv`             Amended december chart data
 
-  `equipment_encoder.pkl`              Fitted equipment encoder
+  `Freight_Rate_Report_Updated.docx`             Validation and December prediction report
 
-  `validation_predictions.csv`         Required production predictions
+  `eda_distributions.png`                        Main EDA distributions
 
-  `Freight_Rate_Report_Updated.docx`   Validation and December prediction
-                                       report
+  `correlation_matrix.png`                       Correlation analysis
 
-  `eda_distributions.png`              Main EDA distributions
+  `feature_importance.png`                       Final model feature importance
 
-  `correlation_matrix.png`             Correlation analysis
+  `prediction_distribution.png`                  Training vs production prediction distribution
 
-  `feature_importance.png`             Final model feature importance
-
-  `prediction_distribution.png`        Training vs production prediction
-                                       distribution
-
-  `candidate_december.png`             December 2025 fixed-route
-                                       prediction chart
-
-  `score.py`                           Client-provided scoring/validation
-                                       script, if included
   ------------------------------------------------------------------------
 
 The saved model artifacts are generated with `joblib` for reuse. The
