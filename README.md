@@ -54,7 +54,6 @@ freight-rate-prediction/
 │
 ├── exploratory/
 ├── EDA Freight Cost Prediction.ipynb
-├── imputer vs Drop Freight Cost.ipynb
 │
 ├── images/
 ├── correlation_matrix.png
