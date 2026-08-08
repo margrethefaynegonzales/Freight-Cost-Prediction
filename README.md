@@ -81,8 +81,6 @@ freight-rate-prediction/
 
    `december_chat_inputs_filled.csv`             Amended december chart data
 
-  `Freight_Rate_Report_Updated.docx`             Validation and December prediction report
-
   `eda_distributions.png`                        Main EDA distributions
 
   `correlation_matrix.png`                       Correlation analysis
@@ -302,7 +300,7 @@ development/test framework.
 The supplied model-comparison visualization shows:
 
 -   Linear Regression MAE: **\$144.87**
--   Random Forest MAE: **\$133.96**
+-   Random Forest MAE: **\$133.83**
 
 Random Forest was selected because it achieved the lower MAE and can
 model nonlinear relationships and interactions more effectively.
